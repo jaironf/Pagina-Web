@@ -78,7 +78,7 @@ h2{
 
 form{
     width: 60vw;
-    max-width: 500px;
+    max-width: 400px;
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
@@ -129,13 +129,14 @@ input, textarea, select{
 .submit, .reset{
     width: 100px;
     height: 50px;
-    margin-left: 100px;
+    margin-left: 60px;
     margin-top: 60px;
     background-color: #E9443D;
     font-family: sans-serif;
     font-style: normal;
     border-radius: 28px;
     border: none;
+    color: white;
 }
 
 
