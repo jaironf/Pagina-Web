@@ -9,7 +9,7 @@ body{
     width: 100%;
     height: 100vh;
     margin: 0;
-
+    background-color: #21181D;
 }
 
 header{
@@ -32,7 +32,7 @@ nav{
     height: 90px;
 }
 
-#buttoms{
+#buttons{
     width: 200px;
     display: flex;
     align-items: center;
@@ -43,6 +43,23 @@ a{
     color: white;
     margin-right: 10px;
     font-family: sans-serif;
+}
+
+.red{
+    background-color: #E9443D;
+    width: 100%;
+    height: 90px;
+    margin-top: 0;
+    color: #E9443D;
+}
+
+.portfolio{
+    display: flex;
+    font-size: 70px;
+    font-family: sans-serif;
+    color: white; 
+    justify-content: center;
+    margin-top: -3rem;
 }
 
 

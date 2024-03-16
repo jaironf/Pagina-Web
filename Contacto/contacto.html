@@ -10,12 +10,66 @@
     <header>
         <nav>
             <span id="logo">Oddliquor</span>
-            <div id="buttoms">
+            <div id="buttons">
             <a href="../index.html">HOME</a>
             <a href="../Biografia/biografia.html">BIOGRAFIA</a>
             <a href="../Portfolio/portfolio.html">PORTFOLIO</a>
-            <a href="./Contacto/contacto.html">CONTACTO</a>
+            <a href="../Contacto/contacto.html">CONTACTO</a>
             </div>
         </nav>
+    </header>
+
+    <div class="red"></div>
+    <div>
+        <h1 class="contact">CONTACTO</h1>
+    </div>
+    <h2>Formulario</h2>
+    <p>Por favor rellene el formulario con la información requerida</p>
+    <form action="">
+        <fieldset>
+            <legend><strong>Registro</strong></legend>
+            <label for="first-name">Nombre: <input type="text" id="first-name" name="first-name" required></label>
+            <label for="second-name">Apellido: <input type="text" id="second-name" name="second-name" required></label>
+            <label for="email">Correo Electrónico: <input type="email" id="email" name="email" required></label>
+            <label for="password">Contraseña: <input type="password" id="password" name="password" required></label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>Datos Personales</strong></legend>
+            <label for="age">Edad (debes ser mayor de 16): <input type="date" id="age" name="age" min="16" max="100" required></label>
+            <label for="ciudad">Ciudad: 
+                <select name="ciudad" id="ciudad" required>
+                    <option value="">(seleccione uno)</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Bilbao">Bilbao</option>
+                    <option value="Vigo">Vigo</option>
+                </select>
+            </label>
+            <label for="cp">Código Postal: <input type="text" id="cp" name="cp" required></label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>Otros Datos</strong></legend>
+            <label for="referencia">Referencia: 
+                <select name="referencia" id="referencia">
+                    <option value="1">A traves de la web</option>
+                    <option value="2">Instagram</option>
+                    <option value="3">A traves de terceros</option>
+                </select>
+            </label>
+            <label for="proximamente">¿Donde te gustaría ver a Oddliquor proximamente? <textarea name="proximamente" id="proximamente" cols="30" rows="3" placeholder="Me gustaria verlo ..."></textarea></label>
+        </fieldset>
+        <br>
+        <label for="condiciones">
+            <input type="checkbox" id="condiciones" name="condiciones" class="inline"> Acepto los <a href="" class="condiciones">terminos y condiciones</a>
+        </label>
+        <br>
+        <br>
+        <button class="submit">Enviar</button>
+        <button class="reset">Borrar</button>
+    </form>
 </body>
 </html>

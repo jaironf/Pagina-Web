@@ -54,7 +54,10 @@ a{
 }
 
 h1{
-    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+  font-size: 50px;
+  font-style: normal;
+
 }
 
 h1, h2{
@@ -82,6 +85,7 @@ div{
     margin-top: 60px;
     background-color: #E9443D;
     font-family: sans-serif;
+    font-style: normal;
     border-radius: 28px;
     border: none;
 }
