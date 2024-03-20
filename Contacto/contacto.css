@@ -139,4 +139,39 @@ input, textarea, select{
     color: white;
 }
 
+footer{
+    background-color: #E9443D;
+    align-items: end;
+}
 
+.contenedor{
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-content{
+    width: 190px;
+    margin: auto;
+    padding: 8px;
+}
+
+li{
+    font-size: 17px;
+    color: white;
+    width: 200px;
+    text-align: center;
+    padding: 7px;
+}
+
+ul{
+    list-style: none;
+}
