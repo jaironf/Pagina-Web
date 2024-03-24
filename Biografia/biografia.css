@@ -110,6 +110,8 @@ a{
 footer{
     background-color: #E9443D;
     align-items: end;
+    font-family: sans-serif;
+    margin-top: 20px;
 }
 
 .contenedor{

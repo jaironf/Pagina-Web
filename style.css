@@ -45,7 +45,7 @@ a{
 .cover{
     display: flex;
     width: 490px;
-    height: 951px;
+    height: 700px;
     word-wrap: wrap;
     flex-direction: column;
     justify-content: center;
@@ -70,7 +70,7 @@ h1, h2{
     justify-content: end;
     width: 400px;
     height: 400px;
-    margin-top: -55rem;
+    margin-top: -40rem;
     margin-left: 750px; 
 }
 
@@ -89,3 +89,4 @@ div{
     border-radius: 28px;
     border: none;
 }
+
